@@ -6,7 +6,7 @@ GitHub PR 생성 또는 Push 시 자동으로 코드 리뷰를 수행하고,
 
 ---
 
-## 목차
+## 목차.
 
 1. [주요 기능](#주요-기능)
 2. [Multi-Agent 구조](#multi-agent-구조)
@@ -390,6 +390,11 @@ Push (to main)
 - [GitHub REST API — Compare Commits](https://docs.github.com/en/rest/commits/commits#compare-two-commits)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 - [LangChain Anthropic Integration](https://python.langchain.com/docs/integrations/chat/anthropic)
-#   A I _ M a s t e r _ P r o j e c t _ 5 t h _ g y o r y e o n g  
+#   A I _ M a s t e r _ P r o j e c t _ 5 t h _ g y o r y e o n g 
+ 
+ #   A I _ M a s t e r _ P r o j e c t _ 5 t h _ g y o r y e o n g 
+ 
+ #   A I _ M a s t e r _ P r o j e c t _ 5 t h _ g y o r y e o n g 
+ 
  #   A I _ M a s t e r _ P r o j e c t _ 5 t h _ g y o r y e o n g  
  

@@ -1,0 +1,14 @@
+[project]
+name = "code-review-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosmtplib>=5.1.0",
+    "fastapi>=0.136.1",
+    "langchain-anthropic>=1.4.1",
+    "langgraph>=1.1.9",
+    "pydantic-settings>=2.14.0",
+    "uvicorn>=0.46.0",
+]

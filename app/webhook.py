@@ -351,6 +351,7 @@ async def handle_webhook(
     """
     # 1. raw body로 서명 검증 (JSON 파싱 전에 수행해야 함)
     payload = await request.body()
+    logger.info("payload 크기: %d bytes, 앞 100자: %r", len(payload), payload[:100])
     _verify_signature(payload, x_hub_signature_256)
 
     logger.info(
@@ -364,7 +365,8 @@ async def handle_webhook(
         return {"status": "pong"}
 
     # 3. 이벤트 유형별 라우팅
-    data = await request.json()
+    import json as _json
+    data = _json.loads(payload)
 
     if x_github_event == "pull_request":
         return await _handle_pull_request(data)

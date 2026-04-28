@@ -1,5 +1,4 @@
 # Code Review Agent v0.3
-<!-- test -->
 
 LangChain + LangGraph 기반 **Multi-Agent AI 코드 리뷰 봇**.
 GitHub PR 생성 또는 Push 시 자동으로 코드 리뷰를 수행하고,

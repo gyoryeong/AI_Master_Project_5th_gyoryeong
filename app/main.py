@@ -34,3 +34,4 @@ app.include_router(router)
 async def health():
     """헬스체크 엔드포인트. 배포 환경에서 서버 상태 확인용."""
     return {"status": "ok", "version": "0.3.0"}
+# webhook test
